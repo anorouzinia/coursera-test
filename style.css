@@ -4,95 +4,53 @@
 	padding: 0;
 	font-size: 21px;
 }
-
-div p {
-	padding: 50px;
-	background-color: gray;
-	border: 1px solid black;
-	margin: 20px;
-	position: relative;
-	
+#header-nav {
+	background-color: #808080; /*grey */
+	border: 3px solid black;
 }
 
-.container {
-	position: relative;
+body {
+	background-color: #ADD8E6;
 }
 
-
-
-#drinks { /* relative positioning of elements changes the look */
-	padding: 10px;
-	background-color: #FFD1DC; //pastel pink
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 1px solid black;
-
-}
-
-#burrito {
-	padding: 10px;
-	background-color: #00FF00; //green
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 1px solid black;
-
-}
-
-#desserts {
-	padding: 10px;
-	background-color: #ADD8E6; //light blue
-	width: 50px;
-	height: 50px;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	border: 1px solid black;
-
-}
-
-@media (min-width: 992px) { /* desktop view */
-	.col-lg-4 {
-		float: left;
-		width: 33.33%;
-	}
-
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-
-	.col-md-6 {
-		float: left;
-		width: 50%;
-	}
-
-	.col-md-6.different {
-		width: 100%;
-		clear: both;
-	}
-
-
-}
-
-@media (max-width: 767px) {
-	.col-sm-12 {
-		float:left;
-		width:100%;
-	}
-}
 h1 {
 	text-align: center;
 	font-size: 1.75em;
 }
 
-p {
-	font-family: "Times New Roman", serif;
-	font-size: 21px;
+h2 { /* Our Menu*/
+	margin: 20px;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222; /* h-shadow, v-shadow, blur radius, color */
 }
+h3 { /*chicken */
+	padding: 10px;
+}
+
+#main-content {
+	background-color: #808080;
+}
+
+#nav-list a:hover {
+	background: #E7E7E7;
+}
+
+#nav-list{
+	background-color: #ffecf2;
+}
+
+@media (min-width: 767px) {
+	.navbar-brand h1 { /* restaurant name */
+		padding-top: 10px;
+		font-size: 5vw;
+	}
+}
+
+hr {
+	opacity: 1;
+}
+
+
 
 
